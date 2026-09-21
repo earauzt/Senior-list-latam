@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "sa-01",
+    "slug": "the-haven-in-stone-oak",
+    "name": "The Haven In Stone Oak",
+    "displayName": "The Haven In Stone Oak",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak",
+    "address": "511 Knights Cross Drive, San Antonio, TX 78258",
+    "phone": "210-404-2687",
+    "license": "307639",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": 1,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-02",
+    "slug": "the-laurels-in-stone-oak",
+    "name": "The Laurels In Stone Oak",
+    "displayName": "The Laurels In Stone Oak",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak",
+    "address": "575 Knights Cross Drive, San Antonio, TX 78258",
+    "phone": "210-249-0991",
+    "license": "307617",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-03",
+    "slug": "franklin-park-sonterra-assisted-living",
+    "name": "Franklin Park Sonterra Assisted Living",
+    "displayName": "Franklin Park Sonterra Assisted Living",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak / Sonterra",
+    "address": "18323 Sonterra Place, San Antonio, TX 78258",
+    "phone": "210-404-1444",
+    "license": "147405",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-04",
+    "slug": "independence-hill-assisted-living",
+    "name": "Independence Hill Assisted Living",
+    "displayName": "Independence Hill Assisted Living",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak / Huebner",
+    "address": "20500 Huebner Rd, San Antonio, TX 78258",
+    "phone": "210-482-2000",
+    "license": "149496",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-05",
+    "slug": "the-landing-at-stone-oak",
+    "name": "The Landing At Stone Oak (Seasons Alzheimer's Care & Assisted Living)",
+    "displayName": "The Landing At Stone Oak",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak / Huebner",
+    "address": "19110 Huebner Road, San Antonio, TX 78258",
+    "phone": "210-479-0155",
+    "license": "144190",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-06",
+    "slug": "the-canyons-of-stone-oak-memory-care",
+    "name": "The Canyons Of Stone Oak Memory Care",
+    "displayName": "The Canyons Of Stone Oak Memory Care",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak",
+    "address": "20271 Stone Oak Parkway, San Antonio, TX 78258",
+    "phone": "210-497-5200",
+    "license": "146053",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-07",
+    "slug": "autumngrove-cottage-stone-oak",
+    "name": "Autumngrove Cottage Stone Oak (Onestone Oak Senior Living)",
+    "displayName": "Autumngrove Cottage Stone Oak",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak",
+    "address": "20718 Stone Oak Parkway, San Antonio, TX 78258",
+    "phone": "210-497-8645",
+    "license": "147158",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-08",
+    "slug": "sodalis-elder-living-stone-oak-vivere-life-stone-oak",
+    "name": "Sodalis Elder Living Stone Oak / VIVERE Life Stone Oak",
+    "displayName": "Sodalis Elder Living Stone Oak / VIVERE Life Stone Oak",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak",
+    "address": "25690 Wilderness Oaks, San Antonio, TX 78261",
+    "phone": "210-960-7235",
+    "license": "147611",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://viverestoneoak.com/"
+    ]
+  },
+  {
+    "id": "sa-09",
+    "slug": "discovery-village-stone-oak-franklin-park-tpc-parkway",
+    "name": "Discovery Village Stone Oak / Franklin Park TPC Parkway",
+    "displayName": "Discovery Village Stone Oak / Franklin Park TPC Parkway",
+    "suburb": "stone-oak",
+    "suburbRaw": "Stone Oak / Encino",
+    "address": "21802 Encino Commons, San Antonio, TX 78259",
+    "phone": "210-483-9999",
+    "license": "307495",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-10",
+    "slug": "arden-courts-of-san-antonio",
+    "name": "Arden Courts Of San Antonio",
+    "displayName": "Arden Courts Of San Antonio",
+    "suburb": "other",
+    "suburbRaw": "Huebner / North Central",
+    "address": "15290 Huebner Road, San Antonio, TX 78231",
+    "phone": "210-408-9100",
+    "license": "147072",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-11",
+    "slug": "heartis-san-antonio",
+    "name": "Heartis San Antonio (Lynridge Of San Antonio)",
+    "displayName": "Heartis San Antonio",
+    "suburb": "other",
+    "suburbRaw": "Huebner",
+    "address": "15430 Huebner Road, San Antonio, TX 78248",
+    "phone": "210-492-1928",
+    "license": "148973",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-12",
+    "slug": "seasons-alzheimers-care-and-assisted-living",
+    "name": "Seasons Alzheimer's Care & Assisted Living (Paesanos / Bader House)",
+    "displayName": "Seasons Alzheimer's Care & Assisted Living",
+    "suburb": "other",
+    "suburbRaw": "Huebner / Shavano Park area",
+    "address": "3411 Paesanos Pkwy, San Antonio, TX 78231",
+    "phone": "210-408-1002",
+    "license": "148393",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-13",
+    "slug": "the-heritage-at-westover-hills",
+    "name": "The Heritage At Westover Hills (The Waterford At Westover Hills)",
+    "displayName": "The Heritage At Westover Hills",
+    "suburb": "westover-hills",
+    "suburbRaw": "Westover Hills",
+    "address": "4315 Rogers Road, San Antonio, TX 78251",
+    "phone": "210-681-8638",
+    "license": "307337",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": 2,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-14",
+    "slug": "memory-care-of-westover-hills",
+    "name": "Memory Care Of Westover Hills (Grand Brook Memory Care Of San Antonio)",
+    "displayName": "Memory Care Of Westover Hills",
+    "suburb": "westover-hills",
+    "suburbRaw": "Westover Hills",
+    "address": "10910 Town Center Drive, San Antonio, TX 78251",
+    "phone": "210-802-6653",
+    "license": "149427",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-15",
+    "slug": "the-grandview-of-westover-hills-llc",
+    "name": "The Grandview Of Westover Hills, LLC",
+    "displayName": "The Grandview Of Westover Hills, LLC",
+    "suburb": "westover-hills",
+    "suburbRaw": "Westover Hills",
+    "address": "8627 Lakeside Parkway, San Antonio, TX 78245",
+    "phone": "210-810-4900",
+    "license": "307679",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-16",
+    "slug": "cedar-ranch-at-military-drive",
+    "name": "Cedar Ranch At Military Drive (The Ridge At Westover Hills / Pepperwood)",
+    "displayName": "Cedar Ranch At Military Drive",
+    "suburb": "westover-hills",
+    "suburbRaw": "Westover Hills",
+    "address": "10107 W Military Dr, San Antonio, TX 78251",
+    "phone": "210-608-9302",
+    "license": "307685",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-17",
+    "slug": "landon-ridge-alamo-ranch",
+    "name": "Landon Ridge – Alamo Ranch",
+    "displayName": "Landon Ridge – Alamo Ranch",
+    "suburb": "alamo-ranch",
+    "suburbRaw": "Alamo Ranch",
+    "address": "11349 Alamo Ranch Parkway, San Antonio, TX 78253",
+    "phone": "888-212-1657",
+    "license": "307560",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": 3,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://www.alamoranchassistedliving.com/about/"
+    ]
+  },
+  {
+    "id": "sa-18",
+    "slug": "avalon-memory-care-mystic-park",
+    "name": "Avalon Memory Care Mystic Park",
+    "displayName": "Avalon Memory Care Mystic Park",
+    "suburb": "alamo-ranch",
+    "suburbRaw": "Alamo Ranch / Far West",
+    "address": "8615 Mystic Park, San Antonio, TX 78254",
+    "phone": "214-752-7050",
+    "license": "145998",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-19",
+    "slug": "freedom-house-alzheimers-care-and-research-center",
+    "name": "Freedom House Alzheimer's Care And Research Center",
+    "displayName": "Freedom House Alzheimer's Care And Research Center",
+    "suburb": "other",
+    "suburbRaw": "West / Lackland area",
+    "address": "12455 Freedom Way, San Antonio, TX 78245",
+    "phone": "210-838-6300",
+    "license": "148715",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-20",
+    "slug": "liberty-house-at-blue-skies-of-texas-west",
+    "name": "Liberty House At Blue Skies Of Texas West",
+    "displayName": "Liberty House At Blue Skies Of Texas West",
+    "suburb": "westover-hills",
+    "suburbRaw": "Westover Hills / West",
+    "address": "5200 John D Ryan Blvd, San Antonio, TX 78245",
+    "phone": "210-568-3420",
+    "license": "145683",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-21",
+    "slug": "boarding-with-tender-care-inc",
+    "name": "Boarding With Tender Care INC",
+    "displayName": "Boarding With Tender Care INC",
+    "suburb": "other",
+    "suburbRaw": "West / 78245",
+    "address": "1002 Gallatin Dr, San Antonio, TX 78245",
+    "phone": "210-573-3680",
+    "license": "146044",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-22",
+    "slug": "pams-home-care",
+    "name": "Pams Home Care",
+    "displayName": "Pams Home Care",
+    "suburb": "westover-hills",
+    "suburbRaw": "Westover Hills area",
+    "address": "2322 Frontier Trail, San Antonio, TX 78251",
+    "phone": "210-787-9340",
+    "license": "147693",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-23",
+    "slug": "the-etta-assisted-living-at-shavano-park",
+    "name": "The Etta Assisted Living At Shavano Park (The Waterford At Shavano Park)",
+    "displayName": "The Etta Assisted Living At Shavano Park",
+    "suburb": "other",
+    "suburbRaw": "Shavano Park",
+    "address": "4096 Dezavala / De Zavala Rd, San Antonio, TX 78249",
+    "phone": "210-408-7411",
+    "license": "307668",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-24",
+    "slug": "the-etta-memory-care-at-shavano-park",
+    "name": "The Etta Memory Care At Shavano Park",
+    "displayName": "The Etta Memory Care At Shavano Park",
+    "suburb": "other",
+    "suburbRaw": "Shavano Park",
+    "address": "4096 Dezavala, San Antonio, TX 78249",
+    "phone": "210-408-7411",
+    "license": "307792",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-25",
+    "slug": "brookdale-medical-center-kingsley",
+    "name": "Brookdale Medical Center Kingsley",
+    "displayName": "Brookdale Medical Center Kingsley",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "9000 Floyd Curl Dr, San Antonio, TX 78240",
+    "phone": "210-697-0772",
+    "license": "146538",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-26",
+    "slug": "brookdale-medical-center-whitby",
+    "name": "Brookdale Medical Center Whitby (Whitby Pointe Senior Living)",
+    "displayName": "Brookdale Medical Center Whitby",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "5996 Whitby Rd, San Antonio, TX 78240",
+    "phone": "210-561-9500",
+    "license": "146278",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-27",
+    "slug": "brookdale-hamilton-wolfe",
+    "name": "Brookdale Hamilton Wolfe",
+    "displayName": "Brookdale Hamilton Wolfe",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "5331 Hamilton Wolfe Rd, San Antonio, TX 78229",
+    "phone": "210-641-7200",
+    "license": "145406",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-28",
+    "slug": "brookdale-n-fredericksburg-road",
+    "name": "Brookdale N Fredericksburg Road (The Westmark Senior Living)",
+    "displayName": "Brookdale N Fredericksburg Road",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "9505 Fredericksburg Rd, San Antonio, TX 78240",
+    "phone": "210-699-4031",
+    "license": "148230",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-29",
+    "slug": "heritage-creek-chateaux-at-heritage-creek",
+    "name": "Heritage Creek / Chateaux At Heritage Creek",
+    "displayName": "Heritage Creek / Chateaux At Heritage Creek",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center / Huebner",
+    "address": "6538 Eckhert Rd, San Antonio, TX 78240",
+    "phone": "210-446-2120",
+    "license": "148410",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-30",
+    "slug": "poets-walk-san-antonio",
+    "name": "Poet's Walk San Antonio",
+    "displayName": "Poet's Walk San Antonio",
+    "suburb": "other",
+    "suburbRaw": "NW / Huebner corridor",
+    "address": "5438 Presidio Parkway, San Antonio, TX 78249",
+    "phone": "210-839-2199",
+    "license": "145873",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-31",
+    "slug": "beehive-homes-of-babcock-ridge",
+    "name": "Beehive Homes Of Babcock Ridge",
+    "displayName": "Beehive Homes Of Babcock Ridge",
+    "suburb": "medical-center",
+    "suburbRaw": "NW / Medical Center area",
+    "address": "6403 Melissa Ann St, San Antonio, TX 78249",
+    "phone": "210-740-1050",
+    "license": "307784",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-32",
+    "slug": "imagine-wellness-assisted-living-llc",
+    "name": "Imagine Wellness Assisted Living, LLC",
+    "displayName": "Imagine Wellness Assisted Living, LLC",
+    "suburb": "other",
+    "suburbRaw": "NW / Huebner",
+    "address": "13919 Ridge Oak Parkway, San Antonio, TX 78249",
+    "phone": "210-908-8300",
+    "license": "307412",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-33",
+    "slug": "senior-haven-assisted-living-llc",
+    "name": "Senior Haven Assisted Living LLC",
+    "displayName": "Senior Haven Assisted Living LLC",
+    "suburb": "other",
+    "suburbRaw": "NW / Shavano Park area",
+    "address": "14706 Hidden Glen Woods, San Antonio, TX 78249",
+    "phone": "210-413-5072",
+    "license": "145943",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-34",
+    "slug": "arden-park-assisted-living-llc",
+    "name": "Arden Park Assisted Living LLC",
+    "displayName": "Arden Park Assisted Living LLC",
+    "suburb": "other",
+    "suburbRaw": "NW / Huebner",
+    "address": "7023 West Hausman Rd, San Antonio, TX 78249",
+    "phone": "210-723-6602",
+    "license": "148712",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-35",
+    "slug": "the-william-assisted-living",
+    "name": "The William Assisted Living",
+    "displayName": "The William Assisted Living",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "9203 Cinnamon Hill, San Antonio, TX 78240",
+    "phone": "210-641-5046",
+    "license": "307793",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-36",
+    "slug": "the-william-memory-care-cottages",
+    "name": "The William Memory Care Cottages (A/B/C)",
+    "displayName": "The William Memory Care Cottages",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "9303 Cinnamon Hill, San Antonio, TX 78240",
+    "phone": "210-641-5046",
+    "license": "307676 / 307693 / 307822",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-37",
+    "slug": "the-cottages-on-danny-kaye",
+    "name": "The Cottages On Danny Kaye (A/B/III)",
+    "displayName": "The Cottages On Danny Kaye",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "5962 Danny Kaye, San Antonio, TX 78240",
+    "phone": "210-540-8288",
+    "license": "149067 / 148868 / 308111",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-38",
+    "slug": "pecan-views-senior-care",
+    "name": "Pecan Views Senior Care",
+    "displayName": "Pecan Views Senior Care",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "6960 Pembroke Rd, San Antonio, TX 78240",
+    "phone": "210-444-9739",
+    "license": "307869",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-39",
+    "slug": "pembroke-angel-care-assisted-living",
+    "name": "Pembroke Angel Care Assisted Living",
+    "displayName": "Pembroke Angel Care Assisted Living",
+    "suburb": "medical-center",
+    "suburbRaw": "Medical Center",
+    "address": "6655 Pembroke Rd, San Antonio, TX 78240",
+    "phone": "210-257-8298",
+    "license": "145510",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-40",
+    "slug": "discovery-village-at-dominion",
+    "name": "Discovery Village At Dominion",
+    "displayName": "Discovery Village At Dominion",
+    "suburb": "other",
+    "suburbRaw": "Dominion / NW",
+    "address": "6906 Heuerman Road, San Antonio, TX 78257",
+    "phone": "210-947-7000",
+    "license": "307480",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-41",
+    "slug": "the-lodge-at-leon-springs-leon-springs-lodge-llc",
+    "name": "The Lodge At Leon Springs / Leon Springs Lodge LLC",
+    "displayName": "The Lodge At Leon Springs / Leon Springs Lodge LLC",
+    "suburb": "other",
+    "suburbRaw": "Leon Springs / NW",
+    "address": "24137 Boerne Stage Rd, San Antonio, TX 78255",
+    "phone": "210-698-9365",
+    "license": "146667 / 147442",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-42",
+    "slug": "la-cantera-assisted-living-and-memory-care-llc",
+    "name": "La Cantera Assisted Living And Memory Care LLC",
+    "displayName": "La Cantera Assisted Living And Memory Care LLC",
+    "suburb": "other",
+    "suburbRaw": "La Cantera / NW",
+    "address": "7524 Wild Eagle Street, San Antonio, TX 78255",
+    "phone": "206-356-3468",
+    "license": "307115",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-43",
+    "slug": "brookdale-nacogdoches",
+    "name": "Brookdale Nacogdoches",
+    "displayName": "Brookdale Nacogdoches",
+    "suburb": "other",
+    "suburbRaw": "NE San Antonio",
+    "address": "14595 Nacogdoches Rd, San Antonio, TX 78247",
+    "phone": "210-653-6100",
+    "license": "149904",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-44",
+    "slug": "seasons-alzheimers-and-assisted-care",
+    "name": "Season's Alzheimers And Assisted Care (Nacogdoches)",
+    "displayName": "Season's Alzheimers And Assisted Care",
+    "suburb": "other",
+    "suburbRaw": "NE San Antonio",
+    "address": "15170 Nacogdoches Road, San Antonio, TX 78247",
+    "phone": "210-584-4238",
+    "license": "148709",
+    "careTypes": [
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-45",
+    "slug": "seasons-alzheimers-care-and-assisted-living-llc",
+    "name": "Seasons Alzheimer's Care & Assisted Living LLC (Nacogdoches Bldg 2)",
+    "displayName": "Seasons Alzheimer's Care & Assisted Living LLC",
+    "suburb": "other",
+    "suburbRaw": "NE San Antonio",
+    "address": "15170 Nacogdoches Road Bldg 2, San Antonio, TX 78247",
+    "phone": "210-584-4238",
+    "license": "147422",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/memory-care/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-46",
+    "slug": "brookdale-maltsberger",
+    "name": "Brookdale Maltsberger",
+    "displayName": "Brookdale Maltsberger",
+    "suburb": "other",
+    "suburbRaw": "NE San Antonio",
+    "address": "13303 Jones Maltsberger Rd, San Antonio, TX 78247",
+    "phone": "210-402-3800",
+    "license": "146116",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-47",
+    "slug": "franklin-park-alamo-heights",
+    "name": "Franklin Park Alamo Heights",
+    "displayName": "Franklin Park Alamo Heights",
+    "suburb": "other",
+    "suburbRaw": "Alamo Heights",
+    "address": "230 W. Sunset Road, San Antonio, TX 78209",
+    "phone": "210-929-9808",
+    "license": "148688",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-48",
+    "slug": "brookdale-alamo-heights",
+    "name": "Brookdale Alamo Heights (Juniper Village At Lincoln Heights)",
+    "displayName": "Brookdale Alamo Heights",
+    "suburb": "other",
+    "suburbRaw": "Alamo Heights / Lincoln Heights",
+    "address": "855 E Basse Rd, San Antonio, TX 78209",
+    "phone": "210-930-1040",
+    "license": "146619",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-49",
+    "slug": "the-forum-at-lincoln-heights-special-care-center",
+    "name": "The Forum At Lincoln Heights / Special Care Center",
+    "displayName": "The Forum At Lincoln Heights / Special Care Center",
+    "suburb": "other",
+    "suburbRaw": "Lincoln Heights",
+    "address": "311 West Nottingham, San Antonio, TX 78209",
+    "phone": "210-824-2314",
+    "license": "307750",
+    "careTypes": [
+      "assisted_living",
+      "memory_care"
+    ],
+    "spanishSpeakingSignal": false,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  },
+  {
+    "id": "sa-50",
+    "slug": "lopez-assisted-living-homes",
+    "name": "Lopez Assisted Living Homes",
+    "displayName": "Lopez Assisted Living Homes",
+    "suburb": "other",
+    "suburbRaw": "West Side (bilingual-friendly operator name)",
+    "address": "3706 Sherril Brook, San Antonio, TX 78228",
+    "phone": "210-434-7216",
+    "license": "147892",
+    "careTypes": [
+      "assisted_living"
+    ],
+    "spanishSpeakingSignal": true,
+    "featuredRank": null,
+    "foundingListing": true,
+    "tulipVerifyPending": true,
+    "msa": "san-antonio",
+    "status": "draft",
+    "sourceUrls": [
+      "https://agesong.com/states/texas/san-antonio/",
+      "https://silvertechdirectory.com/assisted-living/texas/san-antonio/"
+    ]
+  }
+]
