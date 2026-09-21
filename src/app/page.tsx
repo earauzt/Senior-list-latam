@@ -28,6 +28,9 @@ export default function HomePage() {
         <p className="text-sm text-muted" lang="es">
           {es.trust}
         </p>
+        <div lang="es">
+          <CtaRow lang="es" />
+        </div>
       </section>
 
       <section className="mx-auto mt-6 grid max-w-6xl gap-3 px-4 sm:grid-cols-2">
