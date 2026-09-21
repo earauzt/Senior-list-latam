@@ -10,7 +10,6 @@ export default function AlamoRanchPage() {
     <SuburbHub
       suburb="alamo-ranch"
       seo={seo.alamoRanch}
-      intro="West-side / Latam caregiver density is the wedge. Day-1 inventory is intentionally small: only seed-backed communities."
       headings={[
         "Assisted living in Alamo Ranch & west San Antonio",
         "Memory care options for Alamo Ranch families",
@@ -19,10 +18,6 @@ export default function AlamoRanchPage() {
         "Free shortlist for multi-gen Latam households",
         "List your Alamo Ranch community",
       ]}
-      esBlock={{
-        h2: "Vida asistida en Alamo Ranch",
-        body: "Alamo Ranch es el hub oeste del piloto. Pocos listados fundadores, todos del seed. No inventamos comunidades para llenar la página.",
-      }}
     />
   );
 }

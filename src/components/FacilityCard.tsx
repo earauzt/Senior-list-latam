@@ -1,10 +1,5 @@
 import Link from "next/link";
-import {
-  brandedPath,
-  careLabel,
-  facilityPath,
-  suburbLabel,
-} from "@/lib/facilities";
+import { careLabel, facilityPath, suburbLabel } from "@/lib/facilities";
 import type { Facility, Lang } from "@/lib/types";
 
 export function FacilityCard({
@@ -23,7 +18,7 @@ export function FacilityCard({
       <div className="flex flex-wrap items-center gap-2 text-xs">
         {facility.featuredRank != null && (
           <span className="rounded-full bg-gold-soft px-2 py-0.5 font-medium text-gold">
-            Featured · Tier A
+            {lang === "es" ? "Destacado" : "Featured"}
           </span>
         )}
         <span className="rounded-full bg-paper px-2 py-0.5 text-muted">
@@ -61,16 +56,16 @@ export function FacilityCard({
       </p>
       <div className="mt-4 flex flex-wrap gap-2 text-sm">
         <Link
-          href={href}
+          href="/quiz"
           className="rounded-full bg-pine px-3 py-1.5 text-white hover:bg-pine-dark"
         >
-          {lang === "es" ? "Ver ficha" : "View profile"}
+          {lang === "es" ? "Pedir lista corta gratis" : "Get a free shortlist"}
         </Link>
         <Link
-          href={brandedPath(facility)}
+          href={href}
           className="rounded-full border border-line px-3 py-1.5 hover:border-pine"
         >
-          /r stub
+          {lang === "es" ? "Compara comunidades" : "Compare communities"}
         </Link>
       </div>
     </article>

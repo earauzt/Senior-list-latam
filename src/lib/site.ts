@@ -68,15 +68,11 @@ export const NAV = {
     { href: "/san-antonio/memory-care", label: "Memory care" },
     { href: "/san-antonio/spanish-speaking", label: "Spanish-speaking" },
     { href: "/san-antonio/assisted-living-cost", label: "Cost" },
-    { href: "/quiz", label: "Shortlist quiz" },
-    { href: "/list-your-community", label: "For operators" },
   ],
   es: [
     { href: "/es/san-antonio", label: "San Antonio" },
     { href: "/es/san-antonio/cuidado-de-memoria", label: "Cuidado de memoria" },
     { href: "/san-antonio/spanish-speaking", label: "Habla español" },
-    { href: "/quiz", label: "Lista corta" },
-    { href: "/list-your-community", label: "Operadores" },
   ],
 } as const;
 

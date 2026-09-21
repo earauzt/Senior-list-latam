@@ -83,8 +83,8 @@ export function DirectoryFilters({
         />
         <span>
           {es
-            ? "Señal de personal en español"
-            : "Spanish-speaking staff signal"}
+            ? "¿Personal que habla español?"
+            : "Spanish-speaking staff?"}
         </span>
         {lockSpanish && <input type="hidden" name="spanish" value="1" />}
       </label>

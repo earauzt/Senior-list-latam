@@ -5,7 +5,7 @@ export const seo = {
   home: {
     title: "Assisted Living San Antonio | English & Spanish Directory",
     description:
-      "A bilingual San Antonio directory for assisted living and memory care. Filter by suburb and Spanish-speaking staff. Free family shortlist — no #1 claims.",
+      "A bilingual San Antonio directory for assisted living and memory care. Filter by suburb and Spanish-speaking staff. Free family shortlist.",
     h1: "Find assisted living in San Antonio — in English or Spanish",
   },
   city: {

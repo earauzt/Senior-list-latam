@@ -1,69 +1,42 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { CtaRow } from "@/components/CtaRow";
 import { QuizForm } from "@/components/QuizForm";
-import { PageHero, Prose, Section } from "@/components/Section";
+import { PageHero, Section } from "@/components/Section";
+import { TrustStrip } from "@/components/TrustStrip";
+import { pack } from "@/data/copy-pack";
 import { seo } from "@/data/seo";
 import { seoMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = seoMetadata(seo.quiz);
 
 export default function QuizPage() {
+  const t = pack("en");
+
   return (
     <>
-      <PageHero
-        kicker="Matcher stub · no email send"
-        title={seo.quiz.h1}
-        lede="Answer suburb, care type, and Spanish-speaking staff. Matches come from founding seed listings only."
-      />
+      <PageHero kicker={t.cta.secondary} title={seo.quiz.h1} />
 
-      <Section title="Step 1 — Where in San Antonio? (suburb)">
-        <Prose>
-          <p>
-            Steps 2 and 3 cover assisted living vs memory care and Spanish-speaking
-            staff. The form on the right keeps your answers in local UI state
-            and writes the submission to the console / <code>/api/leads</code>{" "}
-            stub — nothing is emailed.
-          </p>
-        </Prose>
-      </Section>
-
-      <section className="mx-auto max-w-6xl px-4 pb-8">
-        <QuizForm />
+      <section className="mx-auto max-w-6xl space-y-4 px-4">
+        <TrustStrip />
+        <CtaRow includeSoft={false} />
       </section>
 
+      <Section title="Step 1 — Where in San Antonio? (suburb)">
+        <QuizForm />
+      </Section>
+
       <Section title="How we build your shortlist (transparent criteria)">
-        <Prose>
-          <p>
-            Filter the seed by suburb hub, care type (AL / memory care / both),
-            and an optional bilingual signal. No review scores, no invented
-            “fit %”. Methodology page:{" "}
-            <Link href="/methodology" className="text-pine underline">
-              /methodology
-            </Link>
-            .
-          </p>
-        </Prose>
+        <TrustStrip />
       </Section>
-
       <Section title="What happens after you submit (WhatsApp / email)">
-        <Prose>
-          <p>
-            In production, a human would follow up. In this draft scaffold the
-            payload stays in logs. No auto-email to families or operators.
-          </p>
-        </Prose>
+        <p className="text-sm">{pack("en").form.success}</p>
+        <p className="mt-1 text-sm" lang="es">
+          {pack("es").form.success}
+        </p>
       </Section>
-
       <Section title="Operators: feature where quiz traffic lands">
-        <Prose>
-          <p>
-            Featured slots are capped at 3 city-wide.{" "}
-            <Link href="/list-your-community" className="text-pine underline">
-              List your community
-            </Link>
-            .
-          </p>
-        </Prose>
+        <p className="mb-3 text-sm">{t.b2b}</p>
+        <CtaRow includeSoft={false} />
       </Section>
     </>
   );

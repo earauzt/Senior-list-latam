@@ -10,7 +10,6 @@ export default function WestoverHillsPage() {
     <SuburbHub
       suburb="westover-hills"
       seo={seo.westoverHills}
-      intro="West-side and NW families often start here. Only real seed listings appear — we will not pad the hub."
       headings={[
         "Assisted living options near Westover Hills",
         "Memory care in the Westover Hills area",
@@ -19,10 +18,6 @@ export default function WestoverHillsPage() {
         "Shortlist CTA for West Side / NW families",
         "Operators: feature your Westover Hills community",
       ]}
-      esBlock={{
-        h2: "Vida asistida cerca de Westover Hills",
-        body: "Opciones de vida asistida y cuidado de memoria cerca de Westover Hills. Página en inglés; el hub de ciudad en español está en /es/san-antonio.",
-      }}
     />
   );
 }

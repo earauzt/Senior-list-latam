@@ -1,9 +1,11 @@
 import Link from "next/link";
+import { pack } from "@/data/copy-pack";
 import { NAV, SITE_NAME } from "@/lib/site";
 import type { Lang } from "@/lib/types";
 
 export function Header({ lang = "en" }: { lang?: Lang }) {
   const links = NAV[lang];
+  const { cta } = pack(lang);
   const otherHref = lang === "en" ? "/es/san-antonio" : "/san-antonio";
   const otherLabel = lang === "en" ? "ES" : "EN";
 
@@ -16,7 +18,7 @@ export function Header({ lang = "en" }: { lang?: Lang }) {
               {SITE_NAME}
             </p>
             <p className="text-xs uppercase tracking-[0.16em] text-muted">
-              San Antonio · bilingual directory
+              San Antonio · EN/ES
             </p>
           </Link>
           <Link
@@ -29,14 +31,22 @@ export function Header({ lang = "en" }: { lang?: Lang }) {
         </div>
         <nav className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-ink">
           {links.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="hover:text-pine"
-            >
+            <Link key={item.href} href={item.href} className="hover:text-pine">
               {item.label}
             </Link>
           ))}
+          <Link
+            href="/quiz"
+            className="rounded-full bg-pine px-3 py-1.5 text-white hover:bg-pine-dark"
+          >
+            {cta.primary}
+          </Link>
+          <Link
+            href="/list-your-community"
+            className="hidden rounded-full border border-line px-3 py-1.5 sm:inline"
+          >
+            {cta.b2b}
+          </Link>
           <Link
             href={otherHref}
             className="hidden rounded-full border border-line px-3 py-1 text-sm font-medium text-pine sm:inline"

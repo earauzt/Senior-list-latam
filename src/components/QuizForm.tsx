@@ -1,22 +1,24 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { pack } from "@/data/copy-pack";
 import { HUB_SUBURBS } from "@/lib/site";
 import { filterFacilities } from "@/lib/facilities";
-import type { CareType, HubSuburb, SuburbSlug } from "@/lib/types";
+import type { CareType, HubSuburb, Lang, SuburbSlug } from "@/lib/types";
 import { FacilityGrid } from "./FacilityCard";
 
 type Step = 1 | 2 | 3 | 4;
+type CareChoice = CareType | "all";
 
-export function QuizForm() {
+export function QuizForm({ lang = "en" }: { lang?: Lang }) {
+  const t = pack(lang);
   const [step, setStep] = useState<Step>(1);
   const [suburb, setSuburb] = useState<SuburbSlug | "all">("all");
-  const [care, setCare] = useState<CareType | "all">("all");
+  const [care, setCare] = useState<CareChoice>("all");
   const [spanish, setSpanish] = useState(false);
   const [name, setName] = useState("");
-  const [contact, setContact] = useState("");
+  const [phone, setPhone] = useState("");
   const [submitted, setSubmitted] = useState(false);
-  const [logNote, setLogNote] = useState("");
 
   const matches = useMemo(
     () => filterFacilities({ suburb, care, spanish }),
@@ -31,8 +33,7 @@ export function QuizForm() {
       care,
       spanish,
       name,
-      contact,
-      matchSlugs: matches.map((f) => f.slug),
+      phone,
     };
     console.log("[Senior List quiz stub — no email send]", payload);
     await fetch("/api/leads", {
@@ -41,9 +42,6 @@ export function QuizForm() {
       body: JSON.stringify(payload),
     });
     setSubmitted(true);
-    setLogNote(
-      "Shortlist stored in local UI + browser/server console. No email was sent.",
-    );
   }
 
   return (
@@ -53,14 +51,12 @@ export function QuizForm() {
         className="h-fit rounded-2xl border border-line bg-card p-4"
       >
         <p className="text-xs uppercase tracking-[0.16em] text-gold">
-          Step {step} of 4
+          {step} / 4
         </p>
 
         {step === 1 && (
           <fieldset className="mt-3 space-y-2">
-            <legend className="font-serif text-xl">
-              Where in San Antonio?
-            </legend>
+            <legend className="font-serif text-xl">{t.form.suburb}</legend>
             <label className="block">
               <input
                 type="radio"
@@ -69,7 +65,7 @@ export function QuizForm() {
                 onChange={() => setSuburb("all")}
                 className="mr-2 accent-pine"
               />
-              Not sure / any suburb
+              {t.form.careUnsure}
             </label>
             {HUB_SUBURBS.map((s) => (
               <label key={s.slug} className="block">
@@ -91,16 +87,14 @@ export function QuizForm() {
                 onChange={() => setSuburb("other")}
                 className="mr-2 accent-pine"
               />
-              Other SA neighborhoods
+              Other
             </label>
           </fieldset>
         )}
 
         {step === 2 && (
           <fieldset className="mt-3 space-y-2">
-            <legend className="font-serif text-xl">
-              Assisted living or memory care?
-            </legend>
+            <legend className="font-serif text-xl">{t.form.care}</legend>
             <label className="block">
               <input
                 type="radio"
@@ -108,7 +102,7 @@ export function QuizForm() {
                 onChange={() => setCare("all")}
                 className="mr-2 accent-pine"
               />
-              Not sure yet
+              {t.form.careUnsure}
             </label>
             <label className="block">
               <input
@@ -117,7 +111,7 @@ export function QuizForm() {
                 onChange={() => setCare("assisted_living")}
                 className="mr-2 accent-pine"
               />
-              Assisted living
+              {t.form.careAl}
             </label>
             <label className="block">
               <input
@@ -126,16 +120,14 @@ export function QuizForm() {
                 onChange={() => setCare("memory_care")}
                 className="mr-2 accent-pine"
               />
-              Memory care (Alzheimer’s / dementia)
+              {t.form.careMemory}
             </label>
           </fieldset>
         )}
 
         {step === 3 && (
           <fieldset className="mt-3 space-y-2">
-            <legend className="font-serif text-xl">
-              Need Spanish-speaking staff?
-            </legend>
+            <legend className="font-serif text-xl">{t.form.spanish}</legend>
             <label className="block">
               <input
                 type="radio"
@@ -143,7 +135,7 @@ export function QuizForm() {
                 onChange={() => setSpanish(false)}
                 className="mr-2 accent-pine"
               />
-              Optional
+              {t.form.spanishNo}
             </label>
             <label className="block">
               <input
@@ -152,39 +144,34 @@ export function QuizForm() {
                 onChange={() => setSpanish(true)}
                 className="mr-2 accent-pine"
               />
-              Yes — only listings with a Spanish-speaking signal
+              {t.form.spanishYes}
             </label>
-            <p className="pt-2 text-sm text-muted">
-              We do not invent staff language. Day-1 seed only marks an
-              unverified bilingual signal when the operator name or research
-              note supports it.
-            </p>
           </fieldset>
         )}
 
         {step === 4 && (
           <div className="mt-3 space-y-3">
-            <p className="font-serif text-xl">How should we reach you?</p>
-            <p className="text-sm text-muted">
-              Optional. Draft mode logs the request — it does not email anyone.
-            </p>
-            <input
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Name"
-              className="w-full rounded-xl border border-line bg-paper px-3 py-2"
-            />
-            <input
-              value={contact}
-              onChange={(e) => setContact(e.target.value)}
-              placeholder="Email or WhatsApp"
-              className="w-full rounded-xl border border-line bg-paper px-3 py-2"
-            />
+            <label className="block text-sm">
+              <span className="mb-1 block text-muted">{t.form.name}</span>
+              <input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="w-full rounded-xl border border-line bg-paper px-3 py-2"
+              />
+            </label>
+            <label className="block text-sm">
+              <span className="mb-1 block text-muted">{t.form.phone}</span>
+              <input
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                className="w-full rounded-xl border border-line bg-paper px-3 py-2"
+              />
+            </label>
             <button
               type="submit"
               className="w-full rounded-xl bg-pine px-4 py-2 text-sm font-medium text-white hover:bg-pine-dark"
             >
-              Show my shortlist
+              {t.form.submit}
             </button>
           </div>
         )}
@@ -196,7 +183,7 @@ export function QuizForm() {
               onClick={() => setStep((s) => (s - 1) as Step)}
               className="rounded-xl border border-line px-3 py-1.5 text-sm"
             >
-              Back
+              {lang === "es" ? "Atrás" : "Back"}
             </button>
           )}
           {step < 4 && (
@@ -205,22 +192,23 @@ export function QuizForm() {
               onClick={() => setStep((s) => (s + 1) as Step)}
               className="rounded-xl bg-pine px-3 py-1.5 text-sm text-white"
             >
-              Continue
+              {lang === "es" ? "Seguir" : "Continue"}
             </button>
           )}
         </div>
-        {logNote ? <p className="mt-3 text-sm text-pine-dark">{logNote}</p> : null}
+        {submitted ? (
+          <p className="mt-3 text-sm text-pine-dark" role="status">
+            {t.form.success}
+          </p>
+        ) : null}
       </form>
 
       <div>
-        <p className="text-sm text-muted">
-          {matches.length} founding listing{matches.length === 1 ? "" : "s"} match
-          your answers. No ratings invented. TULIP verify still pending.
-        </p>
+        <p className="text-sm text-muted">{t.honest}</p>
         <div className="mt-4">
           <FacilityGrid
+            lang={lang}
             facilities={submitted || step === 4 ? matches : matches.slice(0, 6)}
-            empty="No founding listings match yet. Try widening suburb or care type. We will not fabricate communities."
           />
         </div>
       </div>

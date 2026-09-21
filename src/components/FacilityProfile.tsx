@@ -8,7 +8,6 @@ import {
 import { suburbHref } from "@/lib/site";
 import type { Facility } from "@/lib/types";
 import { LeadForm } from "./LeadForm";
-import { Prose } from "./Section";
 
 export function FacilityProfile({
   facility,
@@ -34,7 +33,7 @@ export function FacilityProfile({
       <div className="mt-4 flex flex-wrap gap-2 text-sm">
         {facility.featuredRank != null && (
           <span className="rounded-full bg-gold-soft px-2 py-0.5 text-gold">
-            Featured · Tier A · slot {facility.featuredRank}/3
+            Featured
           </span>
         )}
         <Link
@@ -68,20 +67,9 @@ export function FacilityProfile({
             </p>
           </div>
 
-          <Prose>
-            <p>
-              This is a founding listing imported from the San Antonio Day-1
-              seed. We do not invent star ratings, review counts, or monthly
-              prices. Care types are assisted living and/or memory care only —
-              not skilled nursing.
-            </p>
-            {variant === "lp" && (
-              <p>
-                Branded landing (phase 2 skin). UTM can land here later. No ads
-                pixel is wired in this scaffold.
-              </p>
-            )}
-          </Prose>
+          <p className="text-sm text-muted">
+            Founding listings · TULIP verify pending
+          </p>
 
           <div className="flex flex-wrap gap-3 text-sm">
             {isBranded ? (
@@ -100,13 +88,16 @@ export function FacilityProfile({
               </Link>
             )}
             <Link href="/quiz" className="rounded-full border border-line px-3 py-1.5">
-              Shortlist quiz
+              Get a free shortlist
+            </Link>
+            <Link href="/quiz" className="rounded-full border border-line px-3 py-1.5">
+              Take the 30-second quiz
             </Link>
             <Link
               href="/list-your-community"
               className="rounded-full border border-line px-3 py-1.5"
             >
-              Feature this community
+              Feature your community
             </Link>
           </div>
         </div>
