@@ -109,10 +109,9 @@ export default function HomePage() {
       <Section title="What this directory is not">
         <Prose>
           <p>
-            Not a nursing-home directory. Not a “best assisted living San
-            Antonio” listicle. Not live production. Seed rows are labeled
-            founding listings until licenses are verified in TULIP and operators
-            confirm details.
+            Not a nursing-home directory. Not a city-wide “best of” ranking.
+            Not live production. Seed rows are labeled founding listings until
+            licenses are verified in TULIP and operators confirm details.
           </p>
         </Prose>
       </Section>

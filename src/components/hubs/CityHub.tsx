@@ -20,7 +20,9 @@ export function CityHub({
 }) {
   const es = lang === "es";
   const listings = filterFacilities(filters);
-  const featured = getFeaturedFacilities();
+  const featured = getFeaturedFacilities().filter((facility) =>
+    listings.some((row) => row.id === facility.id),
+  );
   const copy = es ? seoCopy.cityEs : seoCopy.city;
   const filterAction = es ? "/es/san-antonio" : "/san-antonio";
 
@@ -49,20 +51,22 @@ export function CityHub({
         </p>
       </section>
 
-      <Section
-        title={
-          es
-            ? "Listados fundadores que estamos destacando primero"
-            : "Founding listings: communities we’re featuring first"
-        }
-      >
-        <p className="mb-4 text-sm text-muted">
-          {es
-            ? "Máximo 3 featured en la ciudad. Máximo 1 Medical Center. Hoy: Stone Oak, Westover Hills y Alamo Ranch (Tier A). Cero Medical Center en el top para no diluir el cupo."
-            : "Max 3 featured city-wide. Max 1 Medical Center. Today: Stone Oak, Westover Hills, and Alamo Ranch (Tier A). Zero Medical Center in the city top so we do not spend the cap."}
-        </p>
-        <FacilityGrid facilities={featured} lang={lang} />
-      </Section>
+      {featured.length > 0 ? (
+        <Section
+          title={
+            es
+              ? "Listados fundadores que estamos destacando primero"
+              : "Founding listings: communities we’re featuring first"
+          }
+        >
+          <p className="mb-4 text-sm text-muted">
+            {es
+              ? "Máximo 3 featured en la ciudad. Máximo 1 Medical Center. Hoy: Stone Oak, Westover Hills y Alamo Ranch (Tier A). Cero Medical Center en el top para no diluir el cupo."
+              : "Max 3 featured city-wide. Max 1 Medical Center. Today: Stone Oak, Westover Hills, and Alamo Ranch (Tier A). Zero Medical Center in the city top so we do not spend the cap."}
+          </p>
+          <FacilityGrid facilities={featured} lang={lang} />
+        </Section>
+      ) : null}
 
       <Section
         title={
