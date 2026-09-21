@@ -20,11 +20,4 @@ export async function submitLead(formData: FormData) {
 
   // Draft scaffold: no CRM write, no owner email, no auto-send.
   console.log("[Senior List lead stub — no email send]", payload);
-
-  return {
-    ok: true as const,
-    emailed: false,
-    message:
-      "Saved locally in the server log only. No email was sent to families or operators.",
-  };
 }
