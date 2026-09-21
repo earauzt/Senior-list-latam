@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4efe4;
+  --ink: #1c1814;
+  --muted: #5d554b;
+  --pine: #1b5847;
+  --pine-dark: #123c31;
+  --gold: #9a7420;
+  --gold-soft: #f3e6c4;
+  --card: #fffdf8;
+  --line: #ddd2bc;
+  --draft: #7a430c;
+  --draft-bg: #f6e3c0;
+  --danger-soft: #f3d7c8;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-pine: var(--pine);
+  --color-pine-dark: var(--pine-dark);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-draft: var(--draft);
+  --color-draft-bg: var(--draft-bg);
+  --font-sans: var(--font-source-sans);
+  --font-serif: var(--font-source-serif);
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+}
+
+a {
+  text-underline-offset: 0.15em;
+}
